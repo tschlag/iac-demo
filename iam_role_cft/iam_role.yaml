@@ -1,0 +1,141 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Creates an IAM role that developers can assume to read/write to AWS services.
+
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+      - Label:
+          default: Developer-Role
+
+Resources:
+  DeveloperRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: Developer-Role
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+        - Effect: Allow
+          Principal:
+            AWS: ['*']
+          Action: sts:AssumeRole
+
+  AdminPermissons:
+    DependsOn: 
+        - DeveloperRole 
+    Type: 'AWS::IAM::ManagedPolicy'
+    Properties:
+      ManagedPolicyName: Developer-Policy
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Action:
+            - account:*
+            - access-analyzer:*
+            - acm:*
+            - acm-pca:*
+            - airflow:*
+            - aoss:*
+            - apigateway:*
+            - apprunner:*
+            - appstream:*
+            - appsync:*
+            - athena:*
+            - autoscaling:*
+            - backup:*
+            - backup-gateway:*
+            - batch:*
+            - cassandra:*
+            - cloudformation:*
+            - cloudfront:*
+            - cloudhsm:*
+            - cloudsearch:*
+            - cloudtrail:*
+            - cloudwatch:*
+            - codebuild:*
+            - codecommit:*
+            - cognito-idp:*
+            - config:*
+            - datasync:*
+            - dax:*
+            - directconnect:*
+            - dms:*
+            - docdb-elastic:*
+            - ds:*
+            - dynamodb:*
+            - ec2:*
+            - ecr:*
+            - ecr-public:*
+            - ecs:*
+            - eks:*
+            - elasticache:*
+            - elasticbeanstalk:*
+            - elasticfilesystem:*
+            - elasticloadbalancing:*
+            - elasticmapreduce:*
+            - elastictranscoder:*
+            - es:*
+            - events:*
+            - firehose:*
+            - fsx:*
+            - glacier:*
+            - globalaccelerator:*
+            - glue:*
+            - guardduty:*
+            - health:*
+            - iam:*
+            - kafka:*
+            - kendra:*
+            - kinesis:*
+            - kinesisvideo:*
+            - kms:*
+            - lambda:*
+            - lightsail:*
+            - logs:*
+            - lookoutequipment:*
+            - macie2:*
+            - memorydb:*
+            - mq:*
+            - oam:*
+            - organizations:*
+            - outposts:*
+            - quicksight:*
+            - rbin:*
+            - rds:*
+            - redshift:*
+            - redshift-serverless:*
+            - route53:*
+            - route53domains:*
+            - route53resolver:*
+            - s3:*
+            - sagemaker:*
+            - secretsmanager:*
+            - serverlessrepo:*
+            - ses:*
+            - shield:*
+            - sns:*
+            - sqs:*
+            - ssm:*
+            - states:*
+            - storagegateway:*
+            - support:*
+            - tag:*
+            - timestream:*
+            - transcribe:*
+            - transfer:*
+            - waf:*
+            - waf-regional:*
+            - wafv2:*
+            - workspaces:*
+            Effect: Allow
+            Resource: '*'
+      Roles:
+        - !Ref DeveloperRole
+
+Outputs:
+  DeveloperRoleARN:
+      Description: Developer Role ARN
+      Value:
+        Fn::GetAtt:
+        - DeveloperRole
+        - Arn
