@@ -17,11 +17,12 @@ spec:
         env: development
     spec:
       containers:
-      - name: nginx
+      - name: container-app
         image: nginx
         ports:
         - containerPort: 80
       securityContext:  
-      - readOnlyRootFilesystem: false  
-      - runAsNonRoot: false
-      - privileged: true
+        privileged: true
+        allowPrivilegeEscalation: true
+        readOnlyRootFilesystem: false  
+        runAsNonRoot: true
