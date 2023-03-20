@@ -1,5 +1,0 @@
-lambda_terraform/.terraform
-lambda_terraform/.terraform.lock.hcl
-lambda_terraform/DivvyCloud-Org-CloudTrail-Lambda.zip
-lambda_terraform/terraform.tfstate
-lambda_terraform/terraform.tfstate.backup
