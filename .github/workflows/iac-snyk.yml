@@ -11,4 +11,3 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           args: --report
-          file: iam_role_cft k8s_helm_deployment lambda_terraform
