@@ -26,4 +26,4 @@ spec:
         readOnlyRootFilesystem: true
         runAsNonRoot: true
         capabilities:
-          add: ["NET_ADMIN", "SYS_TIME", "SYS_ADMIN"]
+          add: ["NET_ADMIN", "SYS_TIME", "CAP_SYS_ADMIN"]
