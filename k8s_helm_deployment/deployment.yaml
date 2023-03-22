@@ -22,8 +22,6 @@ spec:
         ports:
         - containerPort: 80
       securityContext:  
-        allowPrivilegeEscalation: true
+        allowPrivilegeEscalation: false
         readOnlyRootFilesystem: true
         runAsNonRoot: true
-        capabilities:
-          add: ["SYS_ADMIN", "NET_ADMIN", "SYS_TIME"]
