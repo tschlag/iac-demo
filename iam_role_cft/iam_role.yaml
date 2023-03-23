@@ -17,7 +17,7 @@ Resources:
         Statement:
         - Effect: Allow
           Principal:
-            AWS: ['arn:aws:iam::945415435124:root', 'arn:aws:iam::155193140436:root', 'arn:aws:iam::412368677133:root']
+            AWS: '*'
           Action: sts:AssumeRole
 
   AdminPermissons:
