@@ -46,7 +46,7 @@ resource "aws_lambda_function" "public_lambda" {
   environment {
     variables = {
       env = "dev",
-      db_login = "supersecretpassword"
+      SECRET = "supersecretpassword"
     }
   }
 }

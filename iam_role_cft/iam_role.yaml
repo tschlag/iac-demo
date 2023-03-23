@@ -17,7 +17,7 @@ Resources:
         Statement:
         - Effect: Allow
           Principal:
-            AWS: '*'
+            AWS: ['*']
           Action: sts:AssumeRole
 
   AdminPermissons:
