@@ -4,7 +4,7 @@ data "aws_iam_policy_document" "assume_role" {
 
     principals {
       type        = "AWS"
-      identifiers = ["arn:aws:iam::945415435124:role/Developer-Role"]
+      identifiers = ["*"]
     }
 
     actions = ["sts:AssumeRole"]
@@ -46,7 +46,7 @@ resource "aws_lambda_function" "public_lambda" {
   environment {
     variables = {
       env = "dev",
-      SECRET = "supersecretpassword"
+      api_key = "super_secret"
     }
   }
 }
