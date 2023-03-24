@@ -125,7 +125,6 @@ Resources:
             - waf:*
             - waf-regional:*
             - wafv2:*
-            - workspaces:*
             Effect: Allow
             Resource: '*'
       Roles:
