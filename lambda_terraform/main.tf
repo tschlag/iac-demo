@@ -46,8 +46,7 @@ resource "aws_lambda_function" "public_lambda" {
   environment {
     variables = {
       env = "dev",
-      api_key = "super_secret",
-      owner = "Travis"
+      api_key = "super_secret"
     }
   }
 }
