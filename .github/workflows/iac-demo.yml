@@ -32,4 +32,4 @@ jobs:
       run: ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY" -f sarif -o wiz-results.sarif
 
     - name: Echo
-      run: echo wiz-results.sarif
+      run: echo "$(<wiz-results.sarif )"
