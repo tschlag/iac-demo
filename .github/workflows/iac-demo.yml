@@ -1,5 +1,5 @@
 name: 'wiz-cli'
-on: [pull_request]
+on: push
 
 jobs:
   wiz-cli-iac-scan:
@@ -29,4 +29,9 @@ jobs:
         WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
 
     - name: Run wiz-cli IaC scan
-      run: ./wizcli dir scan --path $SCAN_PATH
+      run: ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY" -f sarif -o wiz-results.sarif
+
+    - name: Upload Wiz scan results to GitHub Security tab
+      uses: github/codeql-action/upload-sarif@v2
+      with:
+        sarif_file: 'wiz-results.sarif'    
