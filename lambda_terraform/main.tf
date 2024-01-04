@@ -49,4 +49,4 @@ resource "aws_lambda_function" "public_lambda" {
       api_key = "super_secret"
     }
   }
-}
+} 
