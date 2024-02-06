@@ -28,5 +28,5 @@ jobs:
         WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
         WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
 
-    - name: Run wiz-cli IaC scan
-      run: ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY"
+    - name: Run wiz-cli Directory scan
+      run: ./wizcli dir scan --path $SCAN_PATH
