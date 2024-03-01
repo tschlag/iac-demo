@@ -29,4 +29,4 @@ jobs:
         WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
 
     - name: Run wiz-cli Directory scan
-      run: ./wizcli dir scan --path $SCAN_PATH
+      run: ./wizcli dir scan --path $SCAN_PATH --output sarif
