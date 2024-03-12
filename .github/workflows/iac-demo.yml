@@ -29,7 +29,7 @@ jobs:
         WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
 
     - name: Run wiz CLI IaC scan
-      run: ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY"
+      run: ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY" 
 
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v3
