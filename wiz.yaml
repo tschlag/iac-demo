@@ -1,0 +1,250 @@
+travisschlageter@F9P2Q7C77R Code % helm list
+NAME	NAMESPACE	REVISION	UPDATED	STATUS	CHART	APP VERSION
+travisschlageter@F9P2Q7C77R Code % helm show all wiz-sec/
+Error: chart "" matching  not found in wiz-sec index. (try 'helm repo update'): no chart name found
+travisschlageter@F9P2Q7C77R Code % helm show all wiz-sec/wiz-sensor
+apiVersion: v2
+description: Wiz Sensor helm chart
+home: https://www.wiz.io/
+name: wiz-sensor
+type: application
+version: 1.0.3891
+
+---
+# Default values for wiz-sensor.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nameOverride: "" # Override the release’s name.
+fullnameOverride: "" # Override the release’s full name.
+
+# Labels applied on all the resources (not used for selection)
+commonLabels: {}
+
+# Annotations to add to the Sensor pod
+podAnnotations: {}
+
+# Additional environment variables to add to the components Pods as pairs “name”, “value”.
+podCustomEnvironmentVariables: []
+
+# create a SecurityContextConstraints CRD for our service-account - used when installing on OpenShift clusters
+openshift: false
+
+# set simpler resource policies for GKE autopilot - basically the requests are the same as the limits
+# see https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-resource-requests#resource-limits .
+# there are also other small changes
+gkeAutopilot: false
+
+# use a custom SELinux type that is required by flatcar Linux nodes, but is incompatible with some
+# other node types (like AWS bottlerocket)
+flatcarLinuxNodes: false
+
+# Set the cluster name in the Wiz portal. Will override the native cloud name. (optional)
+sensorClusterName: ""
+
+# additional volumes to mount in the sensor pod (usually used for extra CA certificates)
+customVolumes: []
+customVolumeMounts: []
+
+# set to true to disallow runtime response from the sensor for this deployment
+disallowRuntimeResponse: false
+
+# set to false to set the sensor in its own network namespace
+hostNetwork: true
+
+# A range of seconds. Given a value X, the Sensor will choose a random value R between 0 and X.
+# It will then delay its start by R seconds. This can be useful to reduce load on shared resources
+# (mainly API-server) when a large amount of Sensors are starting concurrently.
+startDelayRange: 0
+
+# Run in fully privileged mode. Usually used as compatibility mode for unsual setups.
+privileged: false
+
+# the API key identifying this installation (for comm with Wiz portal)
+wizApiToken:
+  secret:
+    # Specifies whether an api token secret should be created
+    # If create is false you need to create it with clientId, clientToken
+    create: true
+    # Annotations to add to the secret
+    annotations: {}
+    # The name of the secret to use.
+    # If not set, a name is generated using the fullname template
+    name: ""
+
+  # The chart will refuse to install unless these are set to valid values
+  clientId: ""
+  clientToken: ""
+  clientEndpoint: "" # Set custom endpoint (gov for example)
+
+httpProxyConfiguration:
+  enabled: false
+
+  # Specifies whether a proxy secret should be created
+  # If create is false you need to:
+  #  1. Create a secret with httpsProxy and caCertificate
+  #  2. Set secretName to reference your secret
+  create: true
+  secretName: "" # Overriding default name for proxy secret name (.Release.Name + "-proxy-configuration" by default)
+
+  # Annotations to be set on the proxy secret
+  annotations: {}
+
+  # a URL of the form: http(s)://username:password@127.0.0.1:8080
+  # the username and password are optional
+  httpsProxy: ""
+
+  # (optional) Proxy CA certificate in PEM format. This is required for TLS intercept proxies
+  caCertificate: ""
+
+  # (optional) Proxy client certificate in PEM format. This is required for client certificate authentication.
+  # The file should contain a certificate and a private key in PEM format.
+  clientCertificate: ""
+
+imagePullSecret:
+  # Set to false if image is retrieved from a registry that doesn't require pull secret
+  # When set to false - all other attributes are meaningless
+  required: true
+
+  # When set to true - it will create a pull secret using username and password bellow
+  # When set to false - it will expect a secret with given name below to be available within the cluster
+  create: true
+
+  # This value is a must in order to pull the image from a private repository. We use helm
+  # to create a docker formatted json, encoded in base64.
+  # In case you want use an existing value please mark "create" above as false.
+  # For general directions on how to pre-create this kind of secret please refer to:
+  # https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#registry-secret-existing-credentials
+  # the default registry server URL to use in the secret is wizio.azurecr.io/sensor
+  username: ""
+  password: ""
+
+  # override the default name of the pull secret
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+
+  # Annotations to add to the service account
+  annotations: {}
+
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+  # Create RBAC resources for our service account.
+  # Needed to fetch kubernetes metadata from the api-server
+  rbac: true
+
+image:
+  # set registry to an empty string if the image is local
+  registry: wizio.azurecr.io
+  repository: sensor
+  tag: "v1"
+  pullPolicy: Always
+  args: {}
+
+daemonset:
+  # cache folder on the node
+  sensorHostCacheCreate: true
+  sensorHostCacheFolder: "/var/lib/wiz/"
+
+  # customize nodes matched
+  nodeSelector: {}
+
+  # customize priority class
+  priorityClassName: ""
+
+  affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+        - matchExpressions:
+          - key: kubernetes.io/os
+            operator: In
+            values:
+            - linux
+          - key: kubernetes.io/arch
+            operator: In
+            values:
+            - arm64
+            - amd64
+
+  tolerations:
+  # Makes pods run on ARM64 as well
+  - key: kubernetes.io/arch
+    operator: Equal
+    value: arm64
+    effect: NoSchedule
+  # Make pods run on GKE spot an preemptible nodes
+  - key: "cloud.google.com/gke-spot"
+    operator: Equal
+    value: "true"
+    effect: NoSchedule
+  - key: "cloud.google.com/gke-preemptible"
+    operator: Equal
+    value: "true"
+    effect: NoSchedule
+  # Make pods run on Azure spot nodes
+  - key: kubernetes.azure.com/scalesetpriority
+    operator: Equal
+    value: spot
+    effect: NoSchedule
+  # Uncomment to make pods run on control-plane nodes. Relevant for OpenShift and other self-hosted clusters
+  #- key: node-role.kubernetes.io/infra
+  #  effect: NoSchedule
+  #- key: node-role.kubernetes.io/infra
+  #  effect: NoExecute
+  #- key: node-role.kubernetes.io/master
+  #  effect: NoSchedule
+  #- key: node.ocs.openshift.io/storage
+  #  value: "true"
+  #  effect: NoSchedule
+
+  # Default strategy to update the daemonset
+  updateStrategy:
+    type: RollingUpdate
+
+  # Time for which kubernetes waits for the sensor pod to terminate gracefully.
+  terminationGracePeriodSeconds: 90
+
+  # resource values for the wiz sensor
+  resources:
+    limits:
+      cpu: "300m"
+      memory: "300Mi"
+    requests:
+      cpu: "10m"
+      memory: "50Mi"
+
+  # If a non-standard path is used please specify it here. Usually not required.
+  criSocketPath: ""
+
+
+# Don't touch the following section, it is used by the wiz-kubernetes-integration chart
+global:
+  nameOverride: ""
+  fullnameOverride: ""
+  commonLabels: {}
+
+  wizApiToken:
+    clientEndpoint: ""
+    secret:
+      name: ""
+
+  httpProxyConfiguration:
+    secretName: ""
+
+  image:
+    registry: ""
+    pullPolicy: ""
+  imagePullSecrets: []
+  podAnnotations: {}
+  podCustomEnvironmentVariables: []
+  customVolumes: [] # Additional volumes to add to the components Pods
+  customVolumeMounts: [] # Additional volume mounts to add to the components Pods
+  nodeSelector: {} # custom assignment to nodes
+  affinity: {} # custom affinity rules for node assignment
+  tolerations: [] # custom tolerations

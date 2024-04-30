@@ -1,0 +1,1000 @@
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-24_00:10:01/go-mongodb/user.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4a4ee8891f262c0a02dc1905d0714126"</ETag>
+    <Size>1153</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-24_00:10:01/go-mongodb/user.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"1fd110a20793fa512664d7ec530c9cca"</ETag>
+    <Size>171</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-24_12:10:01/go-mongodb/todos.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4e20d7d0a9969590593ebd6780a95aa8"</ETag>
+    <Size>534</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-24_12:10:01/go-mongodb/todos.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"bfc1b0f1140d63a58d61b77850987434"</ETag>
+    <Size>172</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-24_12:10:01/go-mongodb/user.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4a4ee8891f262c0a02dc1905d0714126"</ETag>
+    <Size>1153</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-24_12:10:01/go-mongodb/user.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"1fd110a20793fa512664d7ec530c9cca"</ETag>
+    <Size>171</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-25_00:10:01/go-mongodb/todos.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4e20d7d0a9969590593ebd6780a95aa8"</ETag>
+    <Size>534</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-25_00:10:01/go-mongodb/todos.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"bfc1b0f1140d63a58d61b77850987434"</ETag>
+    <Size>172</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-25_00:10:01/go-mongodb/user.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4a4ee8891f262c0a02dc1905d0714126"</ETag>
+    <Size>1153</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-25_00:10:01/go-mongodb/user.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"1fd110a20793fa512664d7ec530c9cca"</ETag>
+    <Size>171</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-25_12:10:01/go-mongodb/todos.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4e20d7d0a9969590593ebd6780a95aa8"</ETag>
+    <Size>534</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-25_12:10:01/go-mongodb/todos.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"bfc1b0f1140d63a58d61b77850987434"</ETag>
+    <Size>172</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-25_12:10:01/go-mongodb/user.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4a4ee8891f262c0a02dc1905d0714126"</ETag>
+    <Size>1153</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-25_12:10:01/go-mongodb/user.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"1fd110a20793fa512664d7ec530c9cca"</ETag>
+    <Size>171</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-26_00:10:01/go-mongodb/todos.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"4e20d7d0a9969590593ebd6780a95aa8"</ETag>
+    <Size>534</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-26_00:10:01/go-mongodb/todos.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"bfc1b0f1140d63a58d61b77850987434"</ETag>
+    <Size>172</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-26_00:10:01/go-mongodb/user.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"9b16f617c7fd62052998261a8803350c"</ETag>
+    <Size>1292</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-26_00:10:01/go-mongodb/user.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"1fd110a20793fa512664d7ec530c9cca"</ETag>
+    <Size>171</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-26_12:10:01/go-mongodb/todos.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"78b6962f6fa8b4149f947517d802d064"</ETag>
+    <Size>103</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-26_12:10:01/go-mongodb/todos.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"bfc1b0f1140d63a58d61b77850987434"</ETag>
+    <Size>172</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>myfolder/2024-04-26_12:10:01/go-mongodb/user.bson</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"137ee84e45831ca8479b09c097448fbd"</ETag>
+    <Size>275</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+    myfolder/2024-04-26_12:10:01/go-mongodb/user.metadata.json</Key>
+    <LastModified>2024-04-26T12:11:04.000Z</LastModified>
+    <ETag>"1fd110a20793fa512664d7ec530c9cca"</ETag>
+    <Size>171</Size>
+    <Owner>
+      <ID>
+      8068df9d9f5235d6091545ac40795e1db0b169e53669749736f90aac219e1ca2</ID>
+    </Owner>
+    <StorageClass>STANDARD</StorageClass>
+  </Contents>
+</ListBucketResult>
+travisschlageter@F9P2Q7C77R code %
+Session Contents Restored on Apr 27, 2024 at 3:33 PM
+Last login: Sat Apr 27 15:32:56 on console
+travisschlageter@F9P2Q7C77R Code % helm repo add aqua-helm https://helm.aquasec.com
+
+"aqua-helm" has been added to your repositories
+travisschlageter@F9P2Q7C77R Code % helm repo update
+
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "wiz-sec" chart repository
+...Successfully got an update from the "wiz-sec-github" chart repository
+...Successfully got an update from the "aqua-helm" chart repository
+Update Complete. ⎈Happy Helming!⎈
+travisschlageter@F9P2Q7C77R Code % helm search repo aqua-helm/enforcer --versions
+
+NAME              	CHART VERSION	APP VERSION	DESCRIPTION
+aqua-helm/enforcer	2022.4.21    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.20    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.19    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.18    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.17    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.16    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.15    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.14    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.13    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.12    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.11    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.10    	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.9     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.8     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.7     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.6     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.4     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.3     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.2     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.1     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	2022.4.0     	2022.4     	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.19       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.18       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.17       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.16       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.15       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.14       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.13       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.12       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.11       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.10       	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.9        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.8        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.7        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.6        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.5        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.4        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.3        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.2        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.1        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.5.0        	6.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.8        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.7        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.6        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.5        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.4        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.3        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.2        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.1        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.2.0        	6.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.0.5        	6.0        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.0.4        	6.0        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.0.3        	6.0        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.0.2        	6.0        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.0.1        	6.0        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	6.0.0        	6.0        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	5.3.4        	5.3        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	5.3.3        	5.3        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	5.3.2        	5.3        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	5.3.1        	5.3        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	5.3.0        	5.3        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	5.0.0        	5.0        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	4.6.0        	4.6        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	4.5.0        	4.5        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	4.2.0        	4.2        	A Helm chart for the Aqua Enforcer
+aqua-helm/enforcer	4.0.0        	4.0        	A Helm chart for the Aqua Enforcer
+travisschlageter@F9P2Q7C77R Code % helm show chart aqua-helm/enforcer
+apiVersion: v1
+appVersion: "2022.4"
+description: A Helm chart for the Aqua Enforcer
+home: https://www.aquasec.com/
+icon: https://avatars3.githubusercontent.com/u/12783832?s=200&v=4
+maintainers:
+- email: support@aquasec.com
+  name: Aqua Security, Inc.
+name: enforcer
+version: 2022.4.21
+
+travisschlageter@F9P2Q7C77R Code % helm show aqua-helm/enforcer
+
+This command consists of multiple subcommands to display information about a chart
+
+Usage:
+  helm show [command]
+
+Aliases:
+  show, inspect
+
+Available Commands:
+  all         show all information of the chart
+  chart       show the chart's definition
+  crds        show the chart's CRDs
+  readme      show the chart's README
+  values      show the chart's values
+
+Flags:
+  -h, --help   help for show
+
+Global Flags:
+      --burst-limit int                 client-side default throttling limit (default 100)
+      --debug                           enable verbose output
+      --kube-apiserver string           the address and the port for the Kubernetes API server
+      --kube-as-group stringArray       group to impersonate for the operation, this flag can be repeated to specify multiple groups.
+      --kube-as-user string             username to impersonate for the operation
+      --kube-ca-file string             the certificate authority file for the Kubernetes API server connection
+      --kube-context string             name of the kubeconfig context to use
+      --kube-insecure-skip-tls-verify   if true, the Kubernetes API server's certificate will not be checked for validity. This will make your HTTPS connections insecure
+      --kube-tls-server-name string     server name to use for Kubernetes API server certificate validation. If it is not provided, the hostname used to contact the server is used
+      --kube-token string               bearer token used for authentication
+      --kubeconfig string               path to the kubeconfig file
+  -n, --namespace string                namespace scope for this request
+      --registry-config string          path to the registry config file (default "/Users/travisschlageter/Library/Preferences/helm/registry/config.json")
+      --repository-cache string         path to the file containing cached repository indexes (default "/Users/travisschlageter/Library/Caches/helm/repository")
+      --repository-config string        path to the file containing repository names and URLs (default "/Users/travisschlageter/Library/Preferences/helm/repositories.yaml")
+
+Use "helm show [command] --help" for more information about a command.
+travisschlageter@F9P2Q7C77R Code % helm show all aqua-helm/enforcer
+apiVersion: v1
+appVersion: "2022.4"
+description: A Helm chart for the Aqua Enforcer
+home: https://www.aquasec.com/
+icon: https://avatars3.githubusercontent.com/u/12783832?s=200&v=4
+maintainers:
+- email: support@aquasec.com
+  name: Aqua Security, Inc.
+name: enforcer
+version: 2022.4.21
+
+---
+global:
+  # Specify the Kubernetes (k8s) platform acronym.
+  # Allowed values are:
+  # - aks: Azure Kubernetes Service
+  # - eks: Amazon Elastic Kubernetes Service
+  # - gke: Google Kubernetes Engine
+  # - openshift: Red Hat OpenShift/OCP
+  # - tkg: VMware Tanzu Kubernetes Grid
+  # - tkgi: VMware Tanzu Kubernetes Grid Integrated Edition
+  # - k8s: Plain/on-prem Vanilla Kubernetes
+  # - rancher: Rancher Kubernetes Platform
+  # - gs: Giant Swarm platform
+  # - k3s: k3s Kubernetes platform
+  # - mke: Mirantis Kubernetes Engine
+  platform: ""
+  dnsNdots:
+  enforcer:
+    enabled: false
+  gateway:
+    # change address to gateway endpoint. For Saas use the hostname containing `-gw`
+    # from your onboarding email and switch port to 443
+    address: aqua-gateway-svc.aqua
+    port: 8443
+  imageCredentials:
+    # change to true if deploying enforcer on new cluster or aqua-registry-secret secret doesn't exist.
+    create: false
+    # use it to overwrite the default secret name
+    name:
+    # for dockerhub - "docker.io"
+    repositoryUriPrefix: "registry.aquasec.com"
+    #REQUIRED only if create is true, for dockerhub - "index.docker.io/v1/"
+    registry: "registry.aquasec.com"
+    username: ""
+    password: ""
+
+serviceAccount:
+  # change to true if deploying enforcer on new cluster or aqua-sa serviceAccount doesn't exist.
+  create: false
+  # use it to overwrite the default serviceAccount name
+  name:
+
+clusterRole:
+  roleRef: ""
+
+# Hashicorp Vault is a secrets management tool
+# Below vaultSecret and vaultAnnotations section helps setting vault sidecar/initContainer agents to load enforcer-token securely
+vaultSecret:
+  enabled: false          # Enable to true once you have secrets in vault and annotations are enabled to load enforcer token from hashicorp vault
+  vaultFilepath: ""       # Change the path to "/vault/secrets/<filename>" as per the setup
+
+# Add hashicorp Vault annotations to enable sidecar/init-container vault agent to load enforcer token
+# example annotations for self-hosted vault server:
+vaultAnnotations:
+  ####
+  # vault.hashicorp.com/agent-inject: "true"
+  # vault.hashicorp.com/agent-inject-status: update
+  # vault.hashicorp.com/agent-pre-populate-only: 'false'                 # Enable to true to add vault agent as init-container without sidecar
+  # vault.hashicorp.com/role: "aqua-enforcer"                            # Specify your role used by vault agent auto-auth
+  # vault.hashicorp.com/agent-inject-secret-enforcer-token: ""           # Specify your vault secrets path eg: `aqua-path/data/aqua-enforcer/token`
+  # vault.hashicorp.com/agent-inject-template-enforcer-token: |
+  #   {{- with secret "aqua-path/data/aqua-enforcer/token" -}}
+  #   export AQUA_TOKEN="{{ .Data.data.token}}"
+  #   {{- end -}}
+  ####
+  # Change aqua secret path as per the setup
+  # Add the secrets in Key Value pair as environment variable
+
+
+# Enter the enforcer token in "clear-text" format without quotes generated from the Console UI
+enforcerToken: enforcer-token
+
+# Use these values to reference a pre-existing secret for the enforcer token.
+# Setting these values will make the chart ignore the content of enforcerToken
+enforcerTokenSecretName: null
+enforcerTokenSecretKey: null
+
+logicalName:
+nodeName:
+nameOverride:
+
+expressMode: false
+
+securityContext:
+  privileged: false
+  capabilities:
+    add:
+      - SYS_ADMIN
+      - NET_ADMIN
+      - NET_RAW
+      - SYS_PTRACE
+      - KILL
+      - MKNOD
+      - SETGID
+      - SETUID
+      - SYS_MODULE
+      - AUDIT_CONTROL
+      - SYSLOG
+      - SYS_CHROOT
+      - SYS_RESOURCE
+      - IPC_LOCK
+
+# podsSecurity policy [Deprecated from kubernetes version > 1.21]
+# if securityContext.privileged is set to true, the podSecurityPolicy will be configured to grant privileged access
+podSecurityPolicy:
+  create: false     # Enable to true to create PSP
+
+multiple_gateway: # enable this to connect enforcer with multiple gateways
+  enabled: false
+# use the below hosts to add multiple gateways as required to enforcer. Format is <hostname>:<port_number>
+multi_gates:
+- aqua-gateway1-svc:8443 #example gateway 1
+- aqua-gateway2-svc:8443 #example gateway 2
+
+
+image:
+  repository: enforcer
+  tag: "2022.4"
+  pullPolicy: Always
+
+restartPolicy: Always
+
+healthMonitor:
+  enabled: "true"
+
+livenessProbe:
+  httpGet:
+    path: /healthz
+    port: 8096
+  initialDelaySeconds: 60
+  periodSeconds: 30
+readinessProbe:
+  httpGet:
+    path: /readinessz
+    port: 8096
+  initialDelaySeconds: 60
+  periodSeconds: 30
+resources: {}
+  # Note: For recommendations please check the official sizing guide.
+  # limits:
+  #   cpu: 1500m
+  #   memory: 1.5Gi
+  # requests:
+  #   cpu: 350m
+  #   memory: 0.512Gi
+
+nodeSelector: {}
+tolerations: []
+podAnnotations: {}
+podLabels: {}
+podSecurityContext: {}
+affinity: {}
+#  my-annotation-key: my value; more value
+
+dnsPolicy: "ClusterFirst"
+hostPID: "true"
+hostRunPath: ""
+schedulerName: "default-scheduler"
+terminationGracePeriodSeconds: "30"
+
+updateStrategy:
+  maxUnavailable: 1
+  type: "RollingUpdate"
+
+priorityClass:
+  create: false
+  name:
+  preemptionPolicy: "PreemptLowerPriority"
+  value: 1000000
+
+TLS:
+  enabled: false
+  # provide certificates secret name created to enable tls/mtls communication between enforcer and gateway/envoy
+  secretName: ""
+  #provide filename of the public key eg: aqua_enforcer.crt
+  publicKey_fileName: ""
+  #provide filename of the private key eg: aqua_enforcer.key
+  privateKey_fileName: ""
+  #provide filename of the rootCA, if using self-signed certificates eg: rootCA.crt
+  rootCA_fileName: ""
+  # change it to true for enabling mTLS between enforcer and gateway/envoy
+  tls_verify: false
+
+# extraEnvironmentVars is a list of extra environment variables to set in the enforcer daemonSet.
+# https://docs.aquasec.com/docs/enforcer-optional-variables
+# The variables could be provided via values.yaml file as shown below
+# or using cli command, for example:  --set extraEnvironmentVars.http_proxy="1.1.1.1",extraEnvironmentVars.https_proxy="2.2.2.2"
+extraEnvironmentVars: {}
+  # http_proxy:
+  # https_proxy:
+  # no_proxy:
+  # AQUA_OCP_FULL_VERSION: <OCP version> #set this variable with the exact OCP version to allow accurate vulnerability scanning
+  # ENV_NAME: value
+
+# extraSecretEnvironmentVars is a list of extra environment variables to set in the enforcer daemonSet.
+# These variables take value from existing Secret objects.
+extraSecretEnvironmentVars: []
+  # - envName: ENV_NAME
+  #   secretName: name
+  #   secretKey: key
+
+windowsEnforcer:
+  ## To Enable Windows Enforcer to deploy on windows agents
+  allWinNodes: # Enable to true, If All the nodes are Windows os
+    enable: false
+
+  WinLinuxNodes: # Enable to true, If nodes are combination of linux and Windows os
+    enable: false
+
+  # Enter the enforcer token in "clear-text" format without quotes generated from the Console UI
+  enforcerToken: enforcer-token
+
+  # Use these values to reference a pre-existing secret for the enforcer token.
+  # Setting these values will make the chart ignore the content of enforcerToken
+  enforcerTokenSecretName: null
+  enforcerTokenSecretKey: null
+
+  nodeName:
+
+  securityContext:
+    windowsOptions:
+      hostProcess: true
+      runAsUserName: "NT AUTHORITY\\SYSTEM"
+
+  multiple_gateway: # enable this to connect enforcer with multiple gateways
+    enabled: false
+  # use the below hosts to add multiple gateways as required to enforcer. Format is <hostname>:<port_number>
+  multi_gates:
+  - aqua-gateway1-svc:8443 #example gateway 1
+  - aqua-gateway2-svc:8443 #example gateway 2
+
+
+  image:
+    repository: windows-enforcer
+    tag: "2022.4"
+    pullPolicy: Always
+
+  restartPolicy: Always
+
+  healthMonitor:
+    enabled: "true"
+
+  livenessProbe:
+    exec:
+      command:
+      - powershell.exe
+      - -c
+      - Get-Service -Name slkd | Where-Object {$_.Status -eq "Running"}
+    timeoutSeconds: 5
+    initialDelaySeconds: 15
+    periodSeconds: 15
+
+  readinessProbe:
+    exec:
+      command:
+      - powershell.exe
+      - -c
+      - Start-Process -FilePath "C:\Program Files\AquaSec\slk.exe" -ArgumentList @("health","check") -Wait -NoNewWindow -RedirectStandardOutput "$Env:TEMP\aqua-enforcer-health.check";
+      - $connection = Get-Content -Path "$Env:TEMP\aqua-enforcer-health.check" | Select-String "connection to management server";
+      - Get-Content -Path "$Env:TEMP\aqua-enforcer-health.check";
+      - if ($connection | Select-String "PASSED" -Quiet) {
+          Exit 0;
+        };
+      - Exit 1;
+    timeoutSeconds: 15
+    initialDelaySeconds: 15
+    periodSeconds: 15
+
+  resources: {}
+    # Note: For recommendations please check the official sizing guide.
+    # requests:
+    #   cpu: 350m
+    #   memory: 0.512Gi
+    # limits:
+    #   cpu: 1500m
+    #   memory: 1.5Gi
+
+  # Add nodeSelector of windows agents
+  nodeSelector: {}
+    #kubernetes.io/os: windows
+
+  # Add tolerations of windows agents
+  tolerations: []
+    #- key: "kubernetes.io/os"
+    #  operator: "Equal"
+    #  value: "windows"
+    #  effect: "NoSchedule"
+
+  podAnnotations: {}
+  podLabels: {}
+  affinity: {}
+  #  my-annotation-key: my value; more value
+
+  dnsPolicy: "ClusterFirst"
+  dnsNdots: ""
+  hostNetwork: "true"
+  hostPID: "true"
+  schedulerName: "default-scheduler"
+  terminationGracePeriodSeconds: "30"
+
+  updateStrategy:
+    maxUnavailable: 1
+    type: "RollingUpdate"
+
+  priorityClass:
+    create: false
+    name:
+    preemptionPolicy: "PreemptLowerPriority"
+    value: 1000000
+
+  TLS:
+    enabled: false
+    # provide certificates secret name created to enable tls/mtls communication between enforcer and gateway/envoy
+    secretName: ""
+    #provide filename of the public key eg: aqua_enforcer.crt
+    publicKey_fileName: ""
+    #provide filename of the private key eg: aqua_enforcer.key
+    privateKey_fileName: ""
+    #provide filename of the rootCA, if using self-signed certificates eg: rootCA.crt
+    rootCA_fileName: ""
+    # change it to true for enabling mTLS between enforcer and gateway/envoy
+    tls_verify: false
+
+  # extraEnvironmentVars is a list of extra environment variables to set in the enforcer daemonSet.
+  # https://docs.aquasec.com/docs/enforcer-optional-variables
+  # The variables could be provided via values.yaml file as shown below
+  # or using cli command, for example:  --set extraEnvironmentVars.http_proxy="1.1.1.1",extraEnvironmentVars.https_proxy="2.2.2.2"
+  extraEnvironmentVars: {}
+    # http_proxy:
+    # https_proxy:
+    # no_proxy:
+    # AQUA_OCP_FULL_VERSION: <OCP version> #set this variable with the exact OCP version to allow accurate vulnerability scanning
+    # ENV_NAME: value
+
+  # extraSecretEnvironmentVars is a list of extra environment variables to set in the enforcer daemonSet.
+  # These variables take value from existing Secret objects.
+  extraSecretEnvironmentVars: []
+    # - envName: ENV_NAME
+    #   secretName: name
+    #   secretKey: key
+
+---
+<img src="https://avatars3.githubusercontent.com/u/12783832?s=200&v=4" height="100" width="100" /><img src="https://avatars3.githubusercontent.com/u/15859888?s=200&v=4" width="100" height="100"/>
+
+# Aqua Security Enforcer Helm Chart
+
+These are Helm charts for installation and maintenance of Aqua Container Security Enforcer
+
+## Contents
+
+- [Aqua Security Enforcer Helm Chart](#aqua-security-enforcer-helm-chart)
+  - [Contents](#contents)
+  - [Prerequisites](#prerequisites)
+    - [Container Registry Credentials](#container-registry-credentials)
+  - [Installing the Chart](#installing-the-chart)
+    - [Installing Aqua Enforcer from Helm Private Repository](#installing-aqua-enforcer-from-helm-private-repository)
+  - [Configuring Enforcer mTLS with Gateway/Envoy](#configuring-enforcer-mtls-with-gatewayenvoy)
+    - [Create Root CA (Done once)](#create-root-ca-done-once)
+    - [Create the certificate and key for enforcer from existing rootca cert](#create-the-certificate-and-key-for-enforcer-from-existing-rootca-cert)
+    - [Create secrets with generated certs and change `values.yaml` as mentioned below](#create-secrets-with-generated-certs-and-change-valuesyaml-as-mentioned-below)
+  - [Guide how to create enforcer group in Kubernetes](#guide-how-to-create-enforcer-group-in-kubernetes)
+  - [Integrate Aqua Enforcer with Hashicorp Vault to Load Token](#integrate-aqua-enforcer-with-hashicorp-vault-to-load-token)
+  - [Configurable Variables](#configurable-variables)
+    - [Enforcer](#enforcer)
+  - [Special cases](#special-cases)
+  - [Issues and feedback](#issues-and-feedback)
+
+## Prerequisites
+
+### Container Registry Credentials
+
+[Link](../docs/imagepullsecret.md)
+
+## Installing the Chart
+Follow the steps in this section for production grade deployments. You can either clone aqua-helm git repo or you can add our helm private repository ([https://helm.aquasec.com](https://helm.aquasec.com))
+
+### Installing Aqua Enforcer from Helm Private Repository
+
+* Add Aqua Helm Repository
+```shell
+helm repo add aqua-helm https://helm.aquasec.com
+helm repo update
+```
+
+* Check for available chart versions either from [Changelog](./CHANGELOG.md) or by running the below command
+
+```shell
+helm search repo aqua-helm/enforcer --versions
+```
+
+* Install Aqua Enforcer
+  * Install enforcer on linux nodes:
+
+    ```shell
+    helm upgrade --install --namespace aqua aqua-enforcer aqua-helm/enforcer --set global.imageCredentials.create=<>,global.imageCredentials.username=<>,global.imageCredentials.password=<>,global.platform=<>,enforcerToken=<aquasec-token>
+    ```
+
+      (or)
+
+  * Install enforcer on combination of linux and windows nodes:
+    ```shell
+      helm upgrade --install --namespace aqua aqua-enforcer aqua-helm/enforcer --set global.imageCredentials.create=<>,global.imageCredentials.username=<>,global.imageCredentials.password=<>,global.platform=<>,enforcerToken=<aquasec-token>,windowsEnforcer.WinLinuxNodes.enable=true,windowsEnforcer.enforcerToken=<windows-enforcer-token>,windowsEnforcer.nodeSelector.key1=value1
+    ```
+
+      (or)
+
+  * Install enforcer on windows nodes only:
+    ```shell
+      helm upgrade --install --namespace aqua aqua-enforcer aqua-helm/enforcer --set global.imageCredentials.create=<>,global.imageCredentials.username=<>,global.imageCredentials.password=<>,global.platform=<>,enforcerToken=<aquasec-token>,windowsEnforcer.allWinNodes.enable=true,windowsEnforcer.enforcerToken=<windows-enforcer-token>,windowsEnforcer.nodeSelector.key1=value1
+    ```
+
+## Configuring Enforcer mTLS with Gateway/Envoy
+  By default, deploying Aqua Enterprise configures TLS-based encrypted communication, using self-signed certificates, between Aqua components. If you want to use self-signed certificates to establish mTLS between enforcer and gateway/envoy use the below instrictions to generate rootCA and component certificates
+
+  > **Note:** **_mTLS communication and setup is only supported for self-hosted Aqua. It is not supported for Aqua ESE and Aqua SAAS_**
+
+  ### Create Root CA (Done once)
+
+  ***Important:*** The rootCA certificate used to generate the certificates for aqua server, gateway or envoy, use the same rootCA to generate enforcer certificates.
+  ### Create the certificate and key for enforcer from existing rootca cert
+
+  **1. Create component key:**
+
+  ```shell
+  openssl genrsa -out aqua_enforcer.key 2048
+  ```
+
+  **2. Create the signing (csr):**
+
+  The certificate signing request is where you specify the details for the certificate you want to generate.
+  This request will be processed by the owner of the Root key (you in this case since you create it earlier) to generate the certificate.
+
+  ***Important:*** Please mind that while creating the signign request is important to specify the `Common Name` providing the IP address or domain name for the service, otherwise the certificate cannot be verified.
+
+  - Generating aqua_enforcer csr:
+  ```shell
+  openssl req -new -sha256 -key aqua_enforcer.key \
+    -subj "/C=US/ST=MA/O=aqua/CN=aqua-agent" \
+    -out aqua_enforcer.csr
+  ```
+
+  **3. Verify the CSR content:**
+  - verify the generated csr content(optional)
+  ```shell
+  openssl req -in aqua_enforcer.csr -noout -text
+  ```
+
+  **4. Generate the certificate using the component csr and key along with the CA Root key:**
+
+  ```shell
+  openssl x509 -req -in aqua_enforcer.csr -CA rootCA.crt -CAkey rootCA.key -CAcreateserial -out aqua_enforcer.crt -days 500 -sha256
+  ```
+
+  **5. Verify the certificate content:**
+  - verify the generated certificate content(optional)
+  ```shell
+  openssl x509 -in aqua_enforcer.crt -text -noout
+  ```
+
+  ### Create secrets with generated certs and change `values.yaml` as mentioned below
+  1. Create Kubernetes secret for enforcer using the generated SSL certificates.
+  ```shell
+  # Example:
+  # Change < certificate filenames > respectively
+  kubectl create secret generic aqua-enforcer-certs --from-file aqua_enforcer.key --from-file aqua_enforcer.crt --from-file rootCA.crt -n aqua
+  ```
+  2. Enable `TLS.enabled`  to `true` in values.yaml
+  3. Add the certificates secret name `TLS.secretName` in values.yaml
+  4. Add respective certificate file names to `TLS.publicKey_fileName`, `TLS.privateKey_fileName` and `TLS.rootCA_fileName`(Add rootCA if certsare self-signed) in values.yaml
+  5. For enabling mTLS/TLS connection with self-signed or CA certificates between gateway and enforcer please setup mTLS/TLS config for gateway inserver chart as well [server chart](../server/README.md#configuring-mtlstls-for-aqua-server-and-aqua-gateway)
+
+
+## Guide how to create enforcer group in Kubernetes
+
+Please login into Aqua Web UI then go to Enforcers section under Administrator tab to create a new enforcer group. Following are the required parameters to create a new group
+
+| Parameter         | Description |
+| ----------------- | ----------- |
+| Enforcer Type     | Select **Aqua Enforcer** |
+| Group Name        | Enter the name for the Enforcer Group; this name will appear in the list of Enforcer groups |
+| OS Type           | Select the OS type for the host |
+| Orchestrator      | Select the orchestrator for which you are creating the Enforcer Group |
+| Container Runtime | Select the container runtime environment from the drop-down list |
+| Aqua Gateway      | Select the Aqua Gateway(s) that the Enforcer will use to communicate with the Aqua Server. If there is only one Gateway, you need not select anything. |
+
+For more details please visit [Link](https://docs.aquasec.com/docs/kubernetes#section-step-4-deploy-aqua-enforcers)
+
+## Integrate Aqua Enforcer with Hashicorp Vault to Load Token
+* Hashicorp Vault is a secrets management tools.
+* Aqua Enforcer charts supports to load token values from vault by vault-agent using annotations. To enable the Vault integration enable `vaultSecret.enable=true`, add vault secret filepath `vaultSecret.vaultFilepath= ""` and uncomment the `vaultAnnotations`.
+* `vaultAnnotations` - Change the vault annotations according as per your vault setup, Annotations support both self-hosted and SaaS Vault setups.
+
+## Configurable Variables
+
+### Enforcer
+
+Parameter | Description      | Default| Mandatory
+--------- |------------------|--------| ---------
+`imageCredentials.create` | Set if to create new pull image secret| `false`| `YES - New cluster`
+`imageCredentials.name` | Your Docker pull image secret name    | `aqua-registry-secret`| `YES - New cluster`
+`imageCredentials.repositoryUriPrefix` | repository uri prefix for dockerhub set `docker.io`| `registry.aquasec.com`| `YES - New cluster`
+`imageCredentials.registry` | set the registry url for dockerhub set `index.docker.io/v1/`| `registry.aquasec.com`| `YES - New cluster`
+`imageCredentials.username` | Your Docker registry (DockerHub, etc.) username| `aqua-registry-secret`| `YES - New cluster`
+`imageCredentials.password` | Your Docker registry (DockerHub, etc.) password| `unset`| `YES - New cluster`
+`serviceAccount.create` | enable to create serviceaccount       | `false`| `YES - New cluster`
+`serviceAccount.name` | service acccount name  | `aqua-sa`| `NO`
+`clusterRole.roleRef` | cluster role reference name for cluster rolebinding| `unset`| `NO`
+`platform` | Orchestration platform name (Allowed values are aks, eks, gke, openshift, tkg, tkgi, k8s, rancher, gs, k3s)   | `unset`| `YES`
+`vaultSecret.enable` | Enable to true once you have secrets in vault and annotations are enabled to load enforcer token from hashicorp vault | `false`| `No` |
+`vaultSecret.vaultFilepath` | Change the path to "/vault/secrets/<filename>" as per the setup     | ` `   | `NO`
+`enforcerToken` | enforcer token value   | `enforcer-token`      | `YES` if `enforcerTokenSecretName` is set to null
+`expressMode` | Install enforcer in EXPRESS MODE or not| `false`| `YES`
+`enforcerTokenSecretName` | enforcer token secret name if exists  | `null` | `NO`
+`enforcerTokenSecretKey` | enforcer token secret key if exists   | `null` | `NO`
+`logicalName` | Specify the Logical Name the Aqua Enforcer will register under. if not specify the name will be `spec.nodeName`     | `unset`| `NO`
+`nodelName` | Specify the Node Name the Aqua Enforcer will register under. if not specify the name will be `spec.nodeName`  | `unset`| `NO`
+`securityContext.privileged` | determines if any container in a pod can enable privileged mode.    | `false`| `NO`
+`securityContext.capabilities` | Linux capabilities provide a finer grained breakdown of the privileges traditionally associated with the superuser. | `add {}` | `NO`
+`podSecurityContext` | Set Pod Security Context ( see: https://kubernetes.io/docs/tasks/configure-pod-container/security-context ) | `unset` | `NO`
+`podSecurityPolicy.create` | Enable Pod Security Policies with the required enforcer capabilities| `false`| `NO`
+`podSecurityPolicy.privileged` | Enable privileged permissions to the Enforcer| `true` if podSecurityPolicy.create is `true` | `NO`
+`global.gateway.address` | Gateway host address   | `aqua-gateway-svc`    | `YES`
+`global.gateway.port` | Gateway host port| `8443` | `YES`
+`priorityClass.create` | If true priority class will be created| `False`| `NO`
+`priorityClass.name` | Define the name of priority class or default value will be used     | ` ` | `NO`
+`priorityClass.preemptionPolicy` | Preemption policy for priority class  | `PreemptLowerPriority`| `NO`
+`priorityClass.value` | `The integer value of the priority`   | `1000000`| `NO`
+`image.repository` | the docker image name to use | `enforcer`| `YES`
+`image.tag` | The image tag to use.  | `2022.4` | `YES`
+`image.pullPolicy` | The kubernetes image pull policy.     | `Always` | `NO`
+`healthMonitor.enabled` | Enabling health monitoring for enforcer liveness and readiness      | `true` | `YES`
+`resources` | 	Resource requests and limits| `{}`   | `NO`
+`nodeSelector` | 	Kubernetes node selector	| `{}`   | `NO`
+`tolerations` | 	Kubernetes node tolerations	| `[]`   | `NO`
+`podAnnotations` | Kubernetes pod annotations| `{}`   | `NO`
+`affinity` | 	Kubernetes node affinity| `{}`   | `NO`
+`dnsNdots` | Modifies ndots DNS configuration for the deployment| `unset`    | `NO`
+`TLS.enabled` | If require secure channel communication| `false`| `NO`
+`TLS.secretName` | certificates secret name | `nil`  | `YES` <br /> `if TLS.enabled is set to true`
+`TLS.publicKey_fileName` | filename of the public key eg: aqua_enforcer.crt| `nil`  |  `YES` <br /> `if TLS.enabled is set to true`
+`TLS.privateKey_fileName`   | filename of the private key eg: aqua_enforcer.key  | `nil`  |  `YES` <br /> `if TLS.enabled is set to true`
+`TLS.rootCA_fileName` | filename of the rootCA, if using self-signed certificates eg: rootCA.crt  | `nil`  |  `NO` <br /> `if TLS.enabled is set to true and using self-signed certificates for TLS/mTLS`
+`TLS.aqua_verify_enforcer` | change it to "1" or "0" for enabling/disabling mTLS between enforcer and ay/envoy        | `0`    |  `YES` <br /> `if TLS.enabled is set to true`
+`extraEnvironmentVars` | is a list of extra environment variables to set in the enforcer daemonset.| `{}`   | `NO`
+`extraSecretEnvironmentVars` | is a list of extra environment variables to set in the scanner daemonset, these variables take value from existing Secret objects. | `[]`   | `NO`
+`windowsEnforcer.allWinNodes.enable` | Enable to true, If All the nodes are windows os and it deploys only windows agents on all windows nodes | `false` | `NO`
+`windowsEnforcer.WinLinuxNodes.enable` | Enable to true, If All the nodes are combination of windows os and linux, it deploys linux agents on linux nodes and  windows agents on windows nodes if nodeselector/tolerations provided according to the cluster| `false` | `NO`
+`windowsEnforcer.enforcerToken` | windows enforcer token value   | `enforcer-token`      | `YES` if `enforcerTokenSecretName` is set to null
+`windowsEnforcer.enforcerTokenSecretName` | windows enforcer token secret name if exists  | `null` | `NO`
+`windowsEnforcer.enforcerTokenSecretKey` | windows enforcer token secret key if exists   | `null` | `NO`
+`windowsEnforcer.nodeName` | Specify the windows Node Name the Aqua Enforcer will register under. if not specify the name will be `spec.nodeName`  | `unset`| `NO`
+`windowsEnforcer.securityContext` | determines if any container in a pod can enable privileged mode.    | `false`| `NO`
+`windowsEnforcer.priorityClass.create` | If true priority class will be created| `False`| `NO`
+`windowsEnforcer.priorityClass.name` | Define the name of priority class or default value will be used     | ``     | `NO`
+`windowsEnforcer.priorityClass.preemptionPolicy` | Preemption policy for priority class  | `PreemptLowerPriority`| `NO`
+`windowsEnforcer.priorityClass.value` | `The integer value of the priority`   | `1000000`| `NO`
+`windowsEnforcer.image.repository` | The windows agent docker image name to use | `enforcer`| `YES`
+`windowsEnforcer.image.tag` | The windows agent image tag to use.  | `2022.4` | `YES`
+`windowsEnforcer.image.pullPolicy` | The windows agent image pull policy.     | `Always` | `NO`
+`windowsEnforcer.healthMonitor.enabled` | Enabling health monitoring for windows enforcer liveness and readiness      | `true` | `YES`
+`windowsEnforcer.resources` | 	Resource requests and limits| `{}`   | `NO`
+`windowsEnforcer.nodeSelector` | 	windows agent node selector	| `{}`   | `NO`
+`windowsEnforcer.tolerations` | 	windows agent node tolerations of windows agent	| `[]`   | `NO`
+`windowsEnforcer.podAnnotations` | windows agent pod annotations of windows agent | `{}`   | `NO`
+`windowsEnforcer.affinity` | 	windows agent node affinity of windows agent | `{}`   | `NO`
+`windowsEnforcer.dnsNdots` | Modifies ndots DNS configuration for the windows agent deployment| `unset`    | `NO`
+`windowsEnforcer.TLS.enabled` | If require secure channel communication| `false`| `NO`
+`windowsEnforcer.TLS.secretName` | certificates secret name | `nil`  | `YES` <br /> `if TLS.enabled is set to true`
+`windowsEnforcer.TLS.publicKey_fileName` | filename of the public key eg: aqua_enforcer.crt| `nil`  |  `YES` <br /> `if TLS.enabled is set to true`
+`windowsEnforcer.TLS.privateKey_fileName`   | filename of the private key eg: aqua_enforcer.key  | `nil`  |  `YES` <br /> `if TLS.enabled is set to true`
+`windowsEnforcer.TLS.rootCA_fileName` | filename of the rootCA, if using self-signed certificates eg: rootCA.crt  | `nil`  |  `NO` <br /> `if TLS.enabled is set to true and using self-signed certificates for TLS/mTLS`
+`windowsEnforcer.TLS.aqua_verify_enforcer` | change it to "1" or "0" for enabling/disabling mTLS between enforcer and ay/envoy        | `0`    |  `YES` <br /> `if TLS.enabled is set to true`
+`windowsEnforcer.extraEnvironmentVars` | is a list of extra environment variables to set in the enforcer daemonset.| `{}`   | `NO`
+`windowsEnforcer.extraSecretEnvironmentVars` | is a list of extra environment variables to set in the scanner daemonset, these variables take value from existing Secret objects. | `[]`   | `NO`
+
+> Note: that `imageCredentials.create` is false and if you need to create image pull secret please update to true, set the username and password for the registry and `serviceAccount.create` is false and if you're environment is new or not having aqua-sa serviceaccount please update it to true.
+
+## Special cases
+* For EKS cluster with the Bottlerocket OS add below section under `securityContext`
+```yaml
+seLinuxOptions:
+  user: system_u
+  role: system_r
+  type: super_t
+  level: s0
+```
+
+* For Lightning deployment of mixed cluster (windows and linux nodes) use following command:
+Replace variables in <> with appropriate values
+```shell
+helm upgrade --install --create-namespace --namespace aqua <cluster_name> aqua-helm/kube-enforcer --set global.gateway.address=<gateway_url>,global.gateway.port=<gateway_port>,certsSecret.autoGenerate=true,global.platform=k8s,global.enforcer.enabled=true,aquaSecret.kubeEnforcerToken=<kube_enforcer_token>,image.tag=<kube_enforcer_image_tag>,enforcer.enforcerToken=<aqua_enforcer_token>,enforcer.image.tag=<aqua_enfocer_image_tag>,serviceAccount.create=true,clusterName=<cluster_name>,global.imageCredentials.create=true,global.imageCredentials.repositoryUriPrefix=registry.aquasec.com,global.imageCredentials.registry=registry.aquasec.com,global.imageCredentials.username=<aqua_portal_username>,global.imageCredentials.password=<aqua_portal_password>,enforcer.expressMode=true,enforcer.windowsEnforcer.WinLinuxNodes.enable=true,enforcer.windowsEnforcer.enforcerToken=<aqua_enforcer_token>,enforcer.windowsEnforcer.tag=<windows_enforcer_image_tag>,extraEnvironmentVars.AQUA_DISABLE_KUBE_BENCH_SCAN=true --set-json 'enforcer.nodeSelector={"kubernetes.io/os": "linux"}','enforcer.windowsEnforcer.nodeSelector={"kubernetes.io/os": "windows"}','nodeSelector={"kubernetes.io/os": "linux"}','trivy.nodeSelector={"kubernetes.io/os": "linux"}'
+```
+
+## Issues and feedback
+
+If you encounter any problems or would like to give us feedback on deployments, we encourage you to raise issues here on GitHub.
+
+travisschlageter@F9P2Q7C77R Code %
