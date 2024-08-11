@@ -23,8 +23,8 @@ resource "aws_iam_role" "iam_for_lambda" {
 
 data "aws_iam_policy_document" "inline_policy" {
   statement {
-    actions   = ["ecs:*"]
     resources = ["*"]
+    actions   = ["eks:*"]
   }
 }
 
@@ -45,8 +45,9 @@ resource "aws_lambda_function" "public_lambda" {
 
   environment {
     variables = {
-      env = "dev",
-      api_key = "super_secret"
+      env = "prod",
+      client_id = "AKIA5YHZGWN2KZBFEY75"
+      client_secret = "	• VcqvYDwuQeJh0nkZFibJJ3Y+JJeNLbSFE9Z3Yc/d"
     }
   }
 } 
