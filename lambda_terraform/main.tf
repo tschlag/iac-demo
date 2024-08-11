@@ -4,7 +4,7 @@ data "aws_iam_policy_document" "assume_role" {
 
     principals {
       type        = "AWS"
-      identifiers = ["arn:aws:iam::945415435124:role/Developer-Role"]
+      identifiers = ["arn:aws:iam::945415435124:root"]
     }
 
     actions = ["sts:AssumeRole"]
@@ -23,14 +23,14 @@ resource "aws_iam_role" "iam_for_lambda" {
 
 data "aws_iam_policy_document" "inline_policy" {
   statement {
-    actions   = ["eks:*"]
+    actions   = ["ecs:*"]
     resources = ["*"]
   }
 }
 
 resource "aws_lambda_permission" "allow_invoke" {
   statement_id  = "AllowLambdaExecution"
-  action        = "lambda:InvokeFunction"
+  action        = "lambda:*"
   function_name = aws_lambda_function.public_lambda.function_name
   principal     = "arn:aws:iam::945415435124:root"
 }
