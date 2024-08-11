@@ -47,7 +47,7 @@ resource "aws_lambda_function" "public_lambda" {
     variables = {
       env = "prod",
       client_id = "AKIA5YHZGWN2KZBFEY75"
-      client_secret = "	• VcqvYDwuQeJh0nkZFibJJ3Y+JJeNLbSFE9Z3Yc/d"
+      client_secret = "VcqvYDwuQeJh0nkZFibJJ3Y+JJeNLbSFE9Z3Yc/d"
     }
   }
 } 
