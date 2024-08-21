@@ -17,6 +17,4 @@ Make: Ford
 Model: Fusion
 Year: 2010
 Color: Black
-Mileage: 990001
-
-Email: travis.schlageter-test@wiz.io
+Mileage: 990000

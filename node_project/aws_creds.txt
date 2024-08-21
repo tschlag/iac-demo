@@ -1,3 +1,3 @@
-[halftime-lab-prod-admin]
+[lab-prod-admin-creds]
 aws_access_key_id=AKIA6GBMAVTIY6VTRLO2
 aws_secret_access_key=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
