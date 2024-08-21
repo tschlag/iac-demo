@@ -1,0 +1,20 @@
+VIN: 1HGCM82633A004352
+Make: Honda
+Model: Accord
+Year: 2003
+Color: Blue
+Mileage: 120000
+
+VIN: 1FTFW1EF8EKE12345
+Make: Ford
+Model: F-150
+Year: 2014
+Color: Red
+Mileage: 85000
+
+VIN: 3FAHP0HA0AR123456
+Make: Ford
+Model: Fusion
+Year: 2010
+Color: Black
+Mileage: 99000
