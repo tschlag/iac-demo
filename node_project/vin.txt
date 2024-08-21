@@ -18,3 +18,5 @@ Model: Fusion
 Year: 2010
 Color: Black
 Mileage: 99000
+
+Email: travis.schlageter-test@wiz.io
