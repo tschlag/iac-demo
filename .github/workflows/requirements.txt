@@ -5,8 +5,8 @@ click==6.7
 Faker==0.7.16
 Flask==0.12.2
 Flask-SQLAlchemy==2.2
-gevent==1.2.3
-greenlet==0.4.12
+gevent==1.2.4
+greenlet==0.4.13
 grequests==0.3.0
 idna==2.5
 ipaddress==1.0.17
@@ -19,7 +19,7 @@ PyJWT==1.5.2
 python-dateutil==2.6.0
 python-docx==0.8.5
 PyYAML==3.13
-requests==2.18.1
+requests==2.18.2
 singledispatch==3.4.0.4
 six==1.10.0
 SQLAlchemy==1.1.10
