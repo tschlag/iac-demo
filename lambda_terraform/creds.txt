@@ -1,3 +1,6 @@
 [halftime-lab-prod-admin]
 aws_access_key_id=AKIA6GBMAVTIY6VTRLO2
 aws_secret_access_key=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
+
+aws_access_key_id=AKIA6GBMAVTIY6VTRLO1
+aws_secret_access_key=3I+j0E+aqkTZ8UNujTAmDWyQIX7Jrgn5C5sqzhdt
