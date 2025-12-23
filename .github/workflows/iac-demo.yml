@@ -1,13 +1,13 @@
-name: 'wiz-cli'
-on: push
+name: "wiz-cli"
+on: [push]
 
 jobs:
   wiz-cli-iac-scan:
-    name: 'Wiz-cli IaC Scan'
+    name: "Wiz-cli IaC Scan"
     runs-on: ubuntu-latest
     env:
       SCAN_PATH: "." # Set the relative path in the repo to scan
-      POLICY: "Default IaC policy" # Set the desired Wiz-cli policy to use
+      POLICY: "MaxSCCPolicy" # Set the desired Wiz CLI policy to use
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
@@ -15,27 +15,15 @@ jobs:
         shell: bash
 
     steps:
-    # Checkout the repository to the GitHub Actions runner
-    - name: Check out repository
-      uses: actions/checkout@v2
+      # Checkout the repository to the GitHub Actions runner
+      - name: Check out repository
+        uses: actions/checkout@v2
 
-    - name: Download Wiz-cli
-      run: curl -o wizcli https://wizcli.app.wiz.io/latest/wizcli && chmod +x wizcli
+      - name: Download Wiz CLI
+        run: curl -o wizcli https://downloads.wiz.io/v1/.wizcli/latest/wizcli-linux-amd64 && chmod +x wizcli
 
-    - name: Authenticate to Wiz
-      run: ./wizcli auth --id "$WIZ_CLIENT_ID" --secret "$WIZ_CLIENT_SECRET"
-      env:
-        WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
-        WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
-
-    - name: Run wiz CLI IaC scan
-      run: ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY"  
-
-    - name: Upload SARIF file
-      uses: github/codeql-action/upload-sarif@v3
-      with:
-        # Path to SARIF file relative to the root of the repository
-        sarif_file: results.sarif
-        # Optional category for the results
-        # Used to differentiate multiple results for one commit
-        category: wiz
+      - name: Run Wiz CLI IaC scan
+        env:
+          WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
+          WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
+        run: ./wizcli scan dir $SCAN_PATH --policies "$POLICY"
