@@ -3,7 +3,7 @@ on: push
 
 jobs:
   wiz-cli-iac-scan:
-    name: 'Wiz-cli IaC Scan'
+    name: 'Wiz-CLI IaC Scan'
     runs-on: ubuntu-latest
     env:
       SCAN_PATH: "." # Set the relative path in the repo to scan
@@ -19,23 +19,11 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v2
 
-    - name: Download Wiz-cli
-      run: curl -o wizcli https://wizcli.app.wiz.io/latest/wizcli && chmod +x wizcli
+    - name: Download Wiz-CLI
+      run: curl -o wizcli https://downloads.wiz.io/v1/.wizcli/latest/wizcli-linux-amd64 && chmod +x wizcli
 
-    - name: Authenticate to Wiz
-      run: ./wizcli auth --id "$WIZ_CLIENT_ID" --secret "$WIZ_CLIENT_SECRET"
+    - name: Run Wiz CLI IaC scan
       env:
         WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
         WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
-
-    - name: Run Wiz CLI Directory Scan
-      run: ./wizcli scan dir --path $SCAN_PATH --policy "$POLICY"  
-
-    - name: Upload SARIF file
-      uses: github/codeql-action/upload-sarif@v3
-      with:
-        # Path to SARIF file relative to the root of the repository
-        sarif_file: results.sarif
-        # Optional category for the results
-        # Used to differentiate multiple results for one commit
-        category: wiz
+      run: ./wizcli scan dir $SCAN_PATH --policies "$POLICY"  
