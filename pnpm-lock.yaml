@@ -9368,7 +9368,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       semver: 7.5.4
-      store2: 2.14.3
+      store2: 2.14.4
       telejson: 7.2.0
       ts-dedent: 2.2.0
     dev: true
@@ -19797,7 +19797,7 @@ packages:
     dependencies:
       internal-slot: 1.0.5
 
-  /store2@2.14.3:
+  /store2@2.14.4:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
