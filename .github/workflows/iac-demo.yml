@@ -22,8 +22,11 @@ jobs:
       - name: Download Wiz CLI
         run: curl -o wizcli https://downloads.wiz.io/v1/.wizcli/latest/wizcli-linux-amd64 && chmod +x wizcli
 
-      - name: Run Wiz CLI IaC scan
+      - name: Authenticate to Wiz
+        run: ./wizcli auth --id "$WIZ_CLIENT_ID" --secret "$WIZ_CLIENT_SECRET"
         env:
           WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
           WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
-        run: ./wizcli scan dir . --policy "MaxSCCPolicy"
+
+      - name: Run Wiz CLI IaC scan
+        run: ./wizcli scan dir $SCAN_PATH --policy "$POLICY"
