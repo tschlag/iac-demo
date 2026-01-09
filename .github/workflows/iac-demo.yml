@@ -20,10 +20,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Download Wiz CLI
-        run: curl -o wizcli https://downloads.wiz.io/v1/.wizcli/latest/wizcli-linux-amd64 && chmod +x wizcli
+        run: curl -Lo wizcli https://downloads.wiz.io/v1/wizcli/latest/wizcli-darwin-arm64 && chmod +x wizcli
 
       - name: Run wiz CLI IaC scan
         env:
           WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
           WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
-        run: wizcli scan dir . $SCAN_PATH --policies "$POLICY"
+        run: ./wizcli scan dir $SCAN_PATH --policies "$POLICY"
