@@ -10,7 +10,7 @@ greenlet==0.4.11
 grequests==0.3.0
 idna==2.5
 ipaddress==1.0.17
-itsdangerous==0.24
+itsdangerous==2.2.0
 Jinja2==2.9.7
 libcomps==0.1.21
 lxml==4.2.1
