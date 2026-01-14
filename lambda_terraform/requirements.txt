@@ -8,7 +8,7 @@ Flask-SQLAlchemy==2.2
 gevent==1.2.2
 greenlet==0.4.11
 grequests==0.3.0
-idna==2.5
+idna==3.10
 ipaddress==1.0.17
 itsdangerous==0.24
 Jinja2==2.9.7
